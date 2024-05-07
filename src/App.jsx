@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <Posts></Posts>
-      {/* <CoinGame></CoinGame> */}
     </>
   );
 }

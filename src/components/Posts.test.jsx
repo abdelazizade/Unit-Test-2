@@ -1,19 +1,6 @@
 import React from "react";
-import {
-  afterAll,
-  afterEach,
-  beforeAll,
-  describe,
-  expect,
-  test,
-  vi,
-} from "vitest";
-import {
-  cleanup,
-  render,
-  screen,
-  waitForElementToBeRemoved,
-} from "@testing-library/react";
+import { afterAll, afterEach, beforeAll, describe, expect, test } from "vitest";
+import { cleanup, render, screen } from "@testing-library/react";
 import { setupServer } from "msw/node";
 import { http, HttpResponse } from "msw";
 
